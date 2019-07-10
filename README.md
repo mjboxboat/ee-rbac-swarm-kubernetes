@@ -54,6 +54,8 @@ The result should reflect this:
 
 In this part we will create the **Users** and assign them to their **Teams**
 
+### Manual Creation of Users
+
 1. Select your `Access Control` and `Users`
 
 2. Select the `Create`Button and create the following Users:
@@ -79,6 +81,28 @@ The result should reflect this:
 
 - members: earl, frank, gertrude
 - sensitive: gertrude
+
+## Linking Users to Teams using LDAP
+
+To enable LDAP in UCP and sync to your LDAP directory:
+
+1. Click Admin Settings under your username drop down.
+   
+2. Click Authentication & Authorization.
+   
+3. Scroll down and click Yes by LDAP Enabled. A list of LDAP settings displays.
+   
+4. Input values to match your LDAP server installation.
+   
+5. Test your configuration in UCP.
+   
+6. Manually create teams in UCP to mirror those in LDAP.
+   
+7. Click Sync Now.
+
+If Docker EE is configured to sync users with your organization’s LDAP directory server, you can enable syncing the new team’s members when creating a new team or when modifying settings of an existing team.
+
+![rbac07](../images/ldap01.png)/
 
 
 ## Part 4a - Create Collections (SWARM)
@@ -176,4 +200,7 @@ Further reading: https://success.docker.com/article/rbac-example-overview
 
 Below are some good videos diving more in depth to Kubernetes RBAC Specifically
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/Nw1ymxcLIDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Role based access control (RBAC) policies in Kubernetes - https://www.youtube.com/watch?v=CnHTCTP8d48
+
+Effective RBAC - Jordan Liggitt, Red Hat - https://www.youtube.com/embed/Nw1ymxcLIDI
+
