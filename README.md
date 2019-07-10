@@ -1,9 +1,11 @@
 # Create a simple RBAC structure
 
-By the end of this exercise, you should be able to:
+This document will demonstrate (follow along if you like) the concepts of the EE RBAC structure as it relates to Swarm and Kubernetes.
 
  - Create a simple RBAC structure within UCP
+ - Link RBAC structure within UCP using LDAP
  - Understand the relations between Organizations, Teams and Users
+ - Understanding the Grants as they relate to Swarm and Kubernetes
 
 ## Part 1 - Organizations
 
@@ -204,4 +206,12 @@ Below are some good videos diving more in depth to Kubernetes RBAC Specifically
 Role based access control (RBAC) policies in Kubernetes - https://www.youtube.com/watch?v=CnHTCTP8d48
 
 Effective RBAC - Jordan Liggitt, Red Hat - https://www.youtube.com/embed/Nw1ymxcLIDI
+
+## Useful Tools
+
+Recommended tools:
+
+Kubens and Kubectx: https://github.com/ahmetb/kubectx
+rbac-lookup: https://github.com/FairwindsOps/rbac-lookup
+
 
