@@ -170,3 +170,10 @@ The result for each parent collection should reflect this:
 UCP allows us with only a few steps to provide a RBAC module to apply to your environment. RBAC structures depend on initial planing. It is mandatory to know the "Who is Who" of the users of UCP.
 
 Further reading: https://success.docker.com/article/rbac-example-overview
+
+
+## External Resources
+
+Below are some good videos diving more in depth to Kubernetes RBAC Specifically
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/Nw1ymxcLIDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
