@@ -214,4 +214,12 @@ Recommended tools:
 Kubens and Kubectx: https://github.com/ahmetb/kubectx
 rbac-lookup: https://github.com/FairwindsOps/rbac-lookup
 
+## Sample Commands
 
+rbac-lookup --output wide --kind group
+
+kubectl get rolebinding --all-namespaces
+
+kubectl describe rolebinding ROLEBINDINGNAME -n NAMESPACE
+
+kubectl get role --all-namespaces

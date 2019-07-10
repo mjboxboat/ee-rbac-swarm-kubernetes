@@ -1,8 +1,8 @@
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: namespace-manager
-  namespace: application1-dev
+  name: alfresco-admin
+  namespace: alfresco
 rules:
 - apiGroups: ["", "batch", "extensions", "apps"]
   resources: ["*"]
