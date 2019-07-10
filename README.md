@@ -128,6 +128,7 @@ We will create **namespaces** for each application and within each environment (
 
 4. Create Roles or ClusterRoles via the GUI under `Access Control` and `Roles` and click on `Kubernetes` and `Create`. You will need to define using YAML. Examples here: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
  
+![rbac08](/images/k8snamespace02.png)/
 
 ## Part 5a - Role assignment (Swarm)
 
