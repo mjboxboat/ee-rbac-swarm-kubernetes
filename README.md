@@ -102,7 +102,7 @@ To enable LDAP in UCP and sync to your LDAP directory:
 
 If Docker EE is configured to sync users with your organization’s LDAP directory server, you can enable syncing the new team’s members when creating a new team or when modifying settings of an existing team.
 
-![rbac07](../images/ldap01.png)/
+![ldap01](/images/ldap01.png)/
 
 
 ## Part 4a - Create Collections (SWARM)
@@ -118,7 +118,8 @@ We want our cluster to be split into three parts: `dev`, `staging`, `production`
 4. Repeat step 3. for collection `staging` and `production`
 
 The result should reflect this:
-![rbac07](../images/rbac07.png)/
+
+![rbac07](/images/rbac07.png)/
 
 5. Select `View Children` on the `dev`collection.
 
